@@ -6,7 +6,7 @@
 import java.util.*;
 import java.io.*;
 
-class Solution {
+class Problem20 {
     public boolean isValid(String s) {
         LinkedList<Character> q = new LinkedList<>();
         for (char ch: s.toCharArray()) {
